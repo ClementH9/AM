@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Lancer de hache",
+    "category": "EVG",
+    "description": "Laissez échapper votre force avant de vous ranger et visez la cible.",
+    "price": 70,
+    "image": "hache.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Spa day",
+    "category": "EVJF",
+    "description": "Pour un moment de calme avant la tempête du soir.",
+    "price": 80,
+    "image": "spa.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Tournée des bars",
+    "category": "EVJF",
+    "description": "Découvrez la ville... sous un autre angle et arpentez les différents bars avec notre guide avisé.",
+    "price": 50,
+    "image": "../assets/bar.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Atelier cocktails",
+    "category": "EVJF",
+    "description": "Créez votre meilleur cocktail et passez une soirée inoubliable dont vous ne vous souviendrez plus.",
+    "price": 70,
+    "image": "../assets/cocktail.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Conduite de tank",
+    "category": "EVG",
+    "description": "Parce qu'après tout, pourquoi pas ? GTA dans la vraie vie !",
+    "price": 150,
+    "image": "../assets/tank.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Atelier bière",
+    "category": "EVG",
+    "description": "Faites votre propre bière avant de la savourer tous ensemble.",
+    "price": 80,
+    "image": "../assets/beer.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Dégustation de vins",
+    "category": "EVJF",
+    "description": "Devenez une œnologue en herbe et testez différents vins. La direction décline toute responsabilité en cas de vue troublée.",
+    "price": 120,
+    "image": "../assets/wine.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Gentlemen's clubs",
+    "category": "EVG",
+    "description": "Ce qui se passe entre vous... reste entre vous !",
+    "price": 150,
+    "image": "../assets/club.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Karaoke",
+    "category": "EVJF",
+    "description": "Personne ne vous en voudra si vous chantez faux.",
+    "price": 60,
+    "image": "../assets/karaoke.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Karting",
+    "category": "EVG",
+    "description": "Devenez une œnologue en herbe et testez différents vins. La direction décline toute responsabilité en cas de vue troublée.",
+    "price": 80,
+    "image": "../assets/karting.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "Cours de danse",
+    "category": "EVJF",
+    "description": "Déhanchez-vous comme si c'était la dernière fois, parce que... c'est la dernière fois !",
+    "price": 120,
+    "image": "../assets/dance.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "Paintball",
+    "category": "EVG",
+    "description": "Venez avec vos plus beaux habits, ça ne craint rien du tout.",
+    "price": 60,
+    "image": "../assets/paintball.jpeg"
+  }
+]

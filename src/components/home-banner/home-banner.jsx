@@ -4,7 +4,7 @@ import banner from '../../assets/champagne.webp';
 function HomeBanner() {
     return (
         <header>
-                <a href="/"><img className="banner" src={banner} alt="banner" /></a>
+                <img className="banner" src={banner} alt="banner" />
         </header>     
     )
 }

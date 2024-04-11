@@ -1,17 +1,16 @@
 import React from 'react';
-import '../../index';
-import Header from '../../components/home-banner/home-banner';
+import HomeBanner from '../../components/home-banner/home-banner';
 import Menu from '../../components/menu/menu';
 
-function App() {
+function Home() {
   return (
     <>
       <div className="container">
-        <Header />
+        <HomeBanner />
         <Menu />
       </div>
     </>
-  )
+  );
 }
 
-export default App;
+export default Home;
