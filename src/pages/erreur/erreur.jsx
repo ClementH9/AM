@@ -7,9 +7,9 @@ function Error() {
         <>
             <div className="error">
             <img className="gif-erreur" src={photoErreur} alt="erreur" />
-                <p className="error-number">404</p>
-                <p className="error-text">Oups! La page que vous demandez n'existe pas.</p>
-                <p className="error-link"><NavLink to="/">Retourner sur la page d'accueil</NavLink></p>
+                <p className="error-number">Erreur - 404</p>
+                <p className="error-text">La page que vous demandez n'existe pas.</p>
+                <p className="error-link"><NavLink to="/">Retour à l'accueil</NavLink></p>
             </div>
         </>
         );
