@@ -3,96 +3,96 @@
     "id": 1,
     "title": "Lancer de hache",
     "category": "EVG",
-    "description": "Laissez échapper votre force avant de vous ranger et visez la cible.",
+    "description": "Vous avez toujours rêvé d'être un viking, sachez qu'aujourd'hui, ce rêve peut devenir réalité. Laissez échapper votre force avant de vous ranger, visez la cible et inscrivez un maximum de points.",
     "price": 70,
-    "image": "hache.jpeg"
+    "image": "https://images.pexels.com/photos/14072130/pexels-photo-14072130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 2,
     "title": "Spa day",
     "category": "EVJF",
-    "description": "Pour un moment de calme avant la tempête du soir.",
+    "description": "Rien de tel que de prendre soin de soi avant de sortir. Pour un moment de calme avant la tempête du soir, réservez cette formule comprenant 30 minutes de massage à l'huile parfumée et 1h de spa.",
     "price": 80,
-    "image": "spa.jpeg"
+    "image": "https://images.pexels.com/photos/161737/pedicure-massage-therapist-spa-161737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 3,
     "title": "Tournée des bars",
     "category": "EVJF",
-    "description": "Découvrez la ville... sous un autre angle et arpentez les différents bars avec notre guide avisé.",
+    "description": "Découvrez la ville... sous un autre angle et arpentez les différents bars avec notre guide avisé. Attention, possible que le retour soit légèrement plus long que l'aller pour des raisons évidentes.",
     "price": 50,
-    "image": "../assets/bar.jpeg"
+    "image": "https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 4,
     "title": "Atelier cocktails",
     "category": "EVJF",
-    "description": "Créez votre meilleur cocktail et passez une soirée inoubliable dont vous ne vous souviendrez plus.",
+    "description": "Réveillez la barmaid qui est en vous ! Créez votre cocktail préféré et passez une soirée inoubliable dont vous ne vous souviendrez plus. Vous pourrez chacunes déguster les créations des autres et élire une gagnante.",
     "price": 70,
-    "image": "../assets/cocktail.jpeg"
+    "image": "https://images.pexels.com/photos/2531184/pexels-photo-2531184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 5,
     "title": "Conduite de tank",
     "category": "EVG",
-    "description": "Parce qu'après tout, pourquoi pas ? GTA dans la vraie vie !",
+    "description": "Parce qu'après tout, pourquoi pas ? Conduire un tank sur une colline représente un rêve de gosse pour certains, et une nécessité pour d'autres. Jouer à Grand Theft Auto dans la vraie vie, qui dit mieux ?",
     "price": 150,
-    "image": "../assets/tank.jpeg"
+    "image": "https://images.pexels.com/photos/12487996/pexels-photo-12487996.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 6,
     "title": "Atelier bière",
     "category": "EVG",
-    "description": "Faites votre propre bière avant de la savourer tous ensemble.",
+    "description": "Créez de vos propres mains une bière à votre image, et dégustez ensuite les créations de chacuns. Passez ensuite un moment à la savourer tous ensemble. Nous avons aussi des options sans allergènes si besoin, précisez-le à l'accueil.",
     "price": 80,
-    "image": "../assets/beer.jpeg"
+    "image": "https://images.pexels.com/photos/1267700/pexels-photo-1267700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 7,
     "title": "Dégustation de vins",
     "category": "EVJF",
-    "description": "Devenez une œnologue en herbe et testez différents vins. La direction décline toute responsabilité en cas de vue troublée.",
+    "description": "Devenez une œnologue en herbe et testez les différents vins de notre cave. La direction décline toute responsabilité en cas de vue troublée mais garantit des sens décuplés et une connaissance accrue à la fin de cette activité.",
     "price": 120,
-    "image": "../assets/wine.jpeg"
+    "image": "https://images.pexels.com/photos/66636/pexels-photo-66636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 8,
     "title": "Gentlemen's clubs",
     "category": "EVG",
-    "description": "Ce qui se passe entre vous... reste entre vous !",
+    "description": "Ce qui se passe entre vous lors de cet EVG... reste entre vous, promis juré ! Sortez en boîte, dansez, amusez-vous et faites plein de choses dont vous avez envie depuis tant d'années. La suite ne nous regarde plus",
     "price": 150,
-    "image": "../assets/club.jpeg"
+    "image": "https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 9,
     "title": "Karaoke",
     "category": "EVJF",
-    "description": "Personne ne vous en voudra si vous chantez faux.",
+    "description": "Queen ? Beyoncé ? Chris Brown ? David Bowie ? Chantez sur toutes les stars présentes et passées, et faites comme si vous étiez en concert à Bercy ! Promis, personne ne vous en voudra si vous chantez faux.",
     "price": 60,
-    "image": "../assets/karaoke.jpeg"
+    "image": "https://images.pexels.com/photos/144429/pexels-photo-144429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 10,
     "title": "Karting",
     "category": "EVG",
-    "description": "Devenez une œnologue en herbe et testez différents vins. La direction décline toute responsabilité en cas de vue troublée.",
+    "description": "Pour les pilotes en herbe ! Faites chauffer la gomme et mettez une vitesse à vos concurrents. A la demande, certains bonus à la manière de Mario Kart peuvent être activés",
     "price": 80,
-    "image": "../assets/karting.jpeg"
+    "image": "https://images.pexels.com/photos/13793258/pexels-photo-13793258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 11,
     "title": "Cours de danse",
     "category": "EVJF",
-    "description": "Déhanchez-vous comme si c'était la dernière fois, parce que... c'est la dernière fois !",
+    "description": "C'est le moment, alors déhanchez-vous comme si c'était la dernière fois, parce que... c'est la dernière fois ! Différentes musiques sont au programme, pour une girl party du tonnerre !",
     "price": 120,
-    "image": "../assets/dance.jpeg"
+    "image": "https://images.pexels.com/photos/163497/pylon-flight-girl-model-163497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 12,
     "title": "Paintball",
     "category": "EVG",
-    "description": "Venez avec vos plus beaux habits, ça ne craint rien du tout.",
+    "description": "Des armes, des cachettes, et du rire à foison. Faites deux équipes et visez-vous sans aucune pitié. Venez avec vos plus beaux habits de marque, les plus chers possibles, ça ne craint rien du tout.",
     "price": 60,
-    "image": "../assets/paintball.jpeg"
+    "image": "https://images.pexels.com/photos/15449207/pexels-photo-15449207/free-photo-of-femme-jouer-sport-debout.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   }
 ]

@@ -7,6 +7,7 @@ function Home() {
     <>
       <div className="container">
         <HomeBanner />
+        <p className="presentation">Organisateur de Bachelor et Bachelorette party depuis 2071</p>
         <Menu />
       </div>
     </>

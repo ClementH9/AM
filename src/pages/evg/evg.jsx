@@ -1,21 +1,31 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importer Link depuis react-router-dom
 import '../../assets/css/App.css';
 import data from '../../activities.json'; // Importer les données depuis le fichier JSON
+import Categories from '../../components/categories/categories'
 
 function EVG() {
   const evgActivities = data.filter(activity => activity.category === "EVG");
 
   return (
     <div>
-      <h1>Organisation d'EVG</h1>
-      {evgActivities.map(activity => (
-        <div key={activity.id}>
-          <h2>{activity.title}</h2>
-          <p>{activity.description}</p>
-          <p>Prix: {activity.price} €</p>
-          <img src={activity.image} alt={activity.title} />
+        <div className="cat">
+            <Categories/>
         </div>
-      ))}
+        <div className="activity-container">
+        <h1 className="organisation">Organisation d'EVG</h1>
+            <div className="activity-grid">
+                {evgActivities.map(activity => (
+                    <div className="activity-card">
+                        <Link key={activity.id} to={`/product/${activity.id}`} className="activity-link">
+                            <img className="activity-image" src={activity.image} alt={activity.title} />
+                        </Link>
+                        <h2 className="activity-title">{activity.title}</h2>
+                        <p className="activity-price">Prix: {activity.price} €</p>
+                    </div>
+                ))}
+            </div>
+        </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo-am.webp';
+import logo from '../../assets/logo-almost-married.webp';
  
 function Header() {
     return (

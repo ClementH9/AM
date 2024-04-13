@@ -8,8 +8,6 @@ function Products({ category }) {
     <div className="products">
       {filteredProducts.map(product => (
         <div key={product.id} className="card">
-          {/* Construire le chemin d'accès complet à partir du nom de fichier spécifié dans le JSON */}
-          <img src={require(`../../../assets/${product.image}`).default} alt={product.title} />
           <h3>{product.title}</h3>
           <p>{product.description}</p>
           <p>Prix: {product.price} €</p>
