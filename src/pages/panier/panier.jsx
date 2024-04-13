@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import data from '../../activities.json'; // Importer les données du fichier JSON
 import { Link } from 'react-router-dom';
-
+import Categories from '../../components/categories/categories';
 
 function Panier() {
   const [cart, setCart] = useState([]);
@@ -53,48 +53,55 @@ function Panier() {
   const totalPanier = consolidatedCart.reduce((total, item) => total + (item.price * item.quantity), 0);
 
   return (
-    <div className="panier-container">
-      <h2 className="panier-title">Votre Panier</h2>
-      {consolidatedCart.length === 0 ? (
-        <p className="empty-cart-message">Votre panier est vide.</p>
-      ) : (
+    <div>
         <div>
-          <ul className="cart-items-list">
-            {consolidatedCart.map((item, index) => (
-              <li key={index} className="cart-item">
-                <div className="item-details">
-                <a href={`/product/${item.id}`} className="card-link"><img src={item.image} alt={item.title} className="item-image" /></a>
-                  <div className="item-description">
-                    <h3 className="item-title">{item.title}</h3>
-                    <p className="item-quantity">
-                      Quantité: 
-                      <select
-                        value={item.quantity}
-                        onChange={(e) => adjustQuantity(item.id, parseInt(e.target.value))}
-                      >
-                        {[...Array(10).keys()].map(num => (
-                          <option key={num + 1} value={num + 1}>{num + 1}</option>
-                        ))}
-                      </select>
-                    </p>
-                    <p className="item-price">Prix total: {item.price * item.quantity} €</p>
-                  </div>
-                  <div className="button-commande">
-                    <button onClick={() => removeFromCart(item.id)}>Supprimer</button>
-                  </div>
-                </div>
-                {index !== consolidatedCart.length - 1 && <hr className="separator" />} {/* Ajouter un trait de séparation si ce n'est pas le dernier élément */}
-              </li>
-            ))}
-            </ul>
-            <p className="total-price">Total du panier: {totalPanier} €</p>
-            <div className="button">
-                <Link to="/confirmation">
-                    <button>Commander</button>
-                </Link>
+            <div className="categories">
+                <Categories />
             </div>
         </div>
-      )}
+        <div className="panier-container">
+        <h2 className="panier-title">Votre Panier</h2>
+        {consolidatedCart.length === 0 ? (
+            <p className="empty-cart-message">Votre panier est vide.</p>
+        ) : (
+            <div>
+            <ul className="cart-items-list">
+                {consolidatedCart.map((item, index) => (
+                <li key={index} className="cart-item">
+                    <div className="item-details">
+                    <a href={`/product/${item.id}`} className="card-link"><img src={item.image} alt={item.title} className="item-image" /></a>
+                    <div className="item-description">
+                        <h3 className="item-title">{item.title}</h3>
+                        <p className="item-quantity">
+                        Quantité: 
+                        <select
+                            value={item.quantity}
+                            onChange={(e) => adjustQuantity(item.id, parseInt(e.target.value))}
+                        >
+                            {[...Array(10).keys()].map(num => (
+                            <option key={num + 1} value={num + 1}>{num + 1}</option>
+                            ))}
+                        </select>
+                        </p>
+                        <p className="item-price">Prix total: {item.price * item.quantity} €</p>
+                    </div>
+                    <div className="button-commande">
+                        <button onClick={() => removeFromCart(item.id)}>Supprimer</button>
+                    </div>
+                    </div>
+                    {index !== consolidatedCart.length - 1 && <hr className="separator" />} {/* Ajouter un trait de séparation si ce n'est pas le dernier élément */}
+                </li>
+                ))}
+                </ul>
+                <p className="total-price">Total du panier: {totalPanier} €</p>
+                <div className="button">
+                    <Link to="/confirmation">
+                        <button>Commander</button>
+                    </Link>
+                </div>
+            </div>
+        )}
+        </div>
     </div>
   );
 }

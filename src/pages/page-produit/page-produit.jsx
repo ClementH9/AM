@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import '../../assets/css/App.css';
 import data from '../../activities.json';
+import Categories from '../../components/categories/categories'
 
 function Product() {
   const { id } = useParams();
@@ -32,28 +33,33 @@ function Product() {
   }
 
   return (
-    <div className="product-container">
-      <div className="product-image-container">
-        <img className="product-image" src={product.image} alt={product.title} />
-      </div>
-      <div className="product-details">
-        <h2 className="product-title">{product.title}</h2>
-        <p className="product-description">{product.description}</p>
-        <p className="product-price">Prix: {product.price} €</p>
-        <div className="quantity-selector">
-          <label htmlFor="quantity">Quantité:</label>
-          <select id="quantity" value={quantity} onChange={handleQuantityChange}>
-            {[...Array(10).keys()].map(num => (
-              <option key={num + 1} value={num + 1}>{num + 1}</option>
-            ))}
-          </select>
+    <div>
+        <div className="categories">
+            <Categories />
+         </div>
+        <div className="product-container">
+            <div className="product-image-container">
+                <img className="product-image" src={product.image} alt={product.title} />
+            </div>
+            <div className="product-details">
+                <h2 className="product-title">{product.title}</h2>
+                <p className="product-description">{product.description}</p>
+                <p className="product-price">Prix: {product.price} €</p>
+                <div className="quantity-selector">
+                <label htmlFor="quantity">Quantité:</label>
+                <select id="quantity" value={quantity} onChange={handleQuantityChange}>
+                    {[...Array(10).keys()].map(num => (
+                    <option key={num + 1} value={num + 1}>{num + 1}</option>
+                    ))}
+                </select>
+                </div>
+                <div className="button">
+                <Link to="/panier">
+                    <button onClick={handleAddToCart}>Ajouter au panier</button>
+                </Link>
+                </div>
+            </div>
         </div>
-        <div className="button">
-          <Link to="/panier">
-            <button onClick={handleAddToCart}>Ajouter au panier</button>
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }
