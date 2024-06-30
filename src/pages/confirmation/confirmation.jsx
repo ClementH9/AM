@@ -1,5 +1,5 @@
 import React from 'react';
-import validationCommande from "../../assets/Gbxx90A.gif"
+import validationCommande from "../../assets/confirmation.jpeg"
 
 function ConfirmationCommande() {
     // Générer un numéro de commande aléatoire

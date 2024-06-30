@@ -1,6 +1,6 @@
 import '../../assets/css/App.css';
 import { NavLink } from "react-router-dom";
-import photoErreur from "../../assets/page-erreur.gif"
+import photoErreur from "../../assets/error.jpeg"
 
 function Error() {
     return (
